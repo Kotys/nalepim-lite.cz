@@ -1,0 +1,218 @@
+<header>
+	<div class="header-area-style3" id="sticker">
+		<div class="header-top">
+			<div class="header-top-inner-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="header-contact">
+								<ul>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<a href="javascript:void(0);"> 739 330 141</a></li>
+									<li>
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<a href="mailto:info@nalepim.cz">info@nalepim.cz</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-top-inner-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="logo-area">
+								<a n:href="Homepage:default">
+									<img class="img-responsive" src="{$basePath}/resources/public/img/logo.svg" alt="logo">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="row">
+					{*<div class="col-lg-3 col-md-3 col-sm-4" n:if="$presenter->isLinkCurrent('Homepage:default')">*}
+						{*<h2 class="category-menu-title close-on-tab">*}
+							{*<a><i class="fa fa-bars" aria-hidden="true"></i></a>Kategorie*}
+						{*</h2>*}
+						{*<div class="logo-area">*}
+							{*<a href="/"><img class="img-responsive" src="{$basePath}/resources/public/img/logo.svg" alt="logo"></a>*}
+						{*</div>*}
+					{*</div>*}
+
+
+					{*<div class="col-lg-3 col-md-3 col-sm-4" n:if="!$presenter->isLinkCurrent('Homepage:default')">*}
+						{*<div class="logo-area">*}
+							{*<a href="/"><img class="img-responsive" src="{$basePath}/resources/public/img/logo.svg" alt="logo"></a>*}
+						{*</div>*}
+						{*<div class="category-menu-area" id="category-menu-area">*}
+							{*<h2 class="category-menu-title"><a><i class="fa fa-bars" aria-hidden="true"></i></a>Kategorie</h2>*}
+							{*<ul class="category-menu-area-inner">*}
+								{*{include '../_shared/menu-items.latte'}*}
+							{*</ul>*}
+						{*</div>*}
+					{*</div>*}
+
+
+
+
+					<div class="col-lg-9 col-md-9 col-sm-8">
+						<div class="main-menu-area">
+							<nav>
+								<ul>
+									<li n:class="$presenter->isLinkCurrent('Homepage:default') ? active">
+										<a n:href="Homepage:default">Domů</a>
+									</li>
+									<li n:class="$presenter->isLinkCurrent('Article:default', 'zakazkova-vyroba') ? active">
+										<a n:href="Article:default, zakazkova-vyroba">Zakázková výroba</a>
+									</li>
+									<li n:class="$presenter->isLinkCurrent('Article:default','informace') ? active">
+										<a n:href="Article:default, informace">Informace</a>
+									</li>
+									<li n:class="$presenter->isLinkCurrent('Article:default','obchodni-podminky') ? active">
+										<a n:href="Article:default, obchodni-podminky">Obchodní podmínky</a>
+									</li>
+									<li n:class="$presenter->isLinkCurrent('Contact:default') ? active">
+										<a n:href="Contact:default">Kontakt</a>
+									</li>
+
+
+									{*<li><a href="index.html#">Pages</a>*}
+										{*<ul class="mega-menu-area">*}
+											{*<li>*}
+												{*<a href="index.html">Home 1</a>*}
+												{*<a href="index2.html">Home 2</a>*}
+												{*<a href="index3.html">Home 3</a>*}
+												{*<a href="index4.html">Home 4</a>*}
+											{*</li>*}
+											{*<li>*}
+												{*<a href="about.html">About Us</a>*}
+												{*<a href="blog.html">Blog</a>*}
+												{*<a href="single-blog.html">Single Blog 2</a>*}
+												{*<a href="portfolio1.html">Portfolio 1</a>*}
+											{*</li>*}
+											{*<li>*}
+												{*<a href="portfolio2.html">Portfolio 2</a>*}
+												{*<a href="wishlist.html">Wishlist</a>*}
+												{*<a href="shop1.html">Shop 1</a>*}
+												{*<a href="shop2.html">Shop 2</a>*}
+											{*</li>*}
+											{*<li>*}
+												{*<a href="shop3.html">Shop 3</a>*}
+												{*<a href="shop4.html">Shop 4</a>*}
+												{*<a href="shop5.html">Shop 5</a>*}
+												{*<a href="shop6.html">Shop 6</a>*}
+											{*</li>*}
+											{*<li>*}
+												{*<a href="shop7.html">Shop 7</a>*}
+												{*<a href="product-details1.html">Product Details 1</a>*}
+												{*<a href="product-details2.html">Product Details 2</a>*}
+												{*<a href="login-registration.html">Login Registration</a>*}
+											{*</li>*}
+											{*<li>*}
+												{*<a href="cart.html">Cart</a>*}
+												{*<a href="check-out.html">Check Out</a>*}
+												{*<a href="404.html">404</a>*}
+												{*<a href="contact.html">Contact</a>*}
+											{*</li>*}
+										{*</ul>*}
+									{*</li>*}
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Mobile Menu Area Start Here -->
+			<div class="mobile-menu-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mobile-menu">
+								<nav id="dropdown">
+
+									<ul>
+										<li n:class="$presenter->isLinkCurrent('Homepage:default') ? active">
+											<a n:href="Homepage:default">Domů</a>
+										</li>
+										<li n:class="$presenter->isLinkCurrent('Article:default', 'zakazkova-vyroba') ? active">
+											<a n:href="Article:default, zakazkova-vyroba">Zakázková výroba</a>
+										</li>
+										<li n:class="$presenter->isLinkCurrent('Article:default','informace') ? active">
+											<a n:href="Article:default, informace">Informace</a>
+										</li>
+										<li n:class="$presenter->isLinkCurrent('Article:default','obchodni-podminky') ? active">
+											<a n:href="Article:default, obchodni-podminky">Obchodní podmínky</a>
+										</li>
+										<li n:class="$presenter->isLinkCurrent('Contact:default') ? active">
+											<a n:href="Contact:default">Kontakt</a>
+										</li>
+									</ul>
+
+									{*<ul>*}
+										{*<li class="active"><a href="index.html#">Home</a>*}
+											{*<ul>*}
+												{*<li><a href="index.html">Home 1</a></li>*}
+												{*<li><a href="index2.html">Home 2</a></li>*}
+												{*<li><a href="index3.html">Home 3</a></li>*}
+												{*<li><a href="index4.html">Home 4</a></li>*}
+											{*</ul>*}
+										{*</li>*}
+										{*<li><a href="about.html">About</a></li>*}
+										{*<li><a href="index.html#">Blog</a>*}
+											{*<ul>*}
+												{*<li><a href="blog.html">Blog</a></li>*}
+												{*<li><a href="single-blog.html">Single Blog</a></li>*}
+												{*<li class="has-child-menu"><a href="index.html#">Demo</a>*}
+													{*<ul class="thired-level">*}
+														{*<li><a href="index.html#">Demo 1</a></li>*}
+														{*<li><a href="index.html#">Demo 2</a></li>*}
+													{*</ul>*}
+												{*</li>*}
+											{*</ul>*}
+										{*</li>*}
+										{*<li><a href="index.html#">Portfolio</a>*}
+											{*<ul>*}
+												{*<li><a href="portfolio1.html">Portfolio 1</a></li>*}
+												{*<li><a href="portfolio2.html">Portfolio 2</a></li>*}
+											{*</ul>*}
+										{*</li>*}
+										{*<li><a href="index.html#">Shop</a>*}
+											{*<ul>*}
+												{*<li><a href="shop1.html">Shop 1</a></li>*}
+												{*<li><a href="shop2.html">Shop 2</a></li>*}
+												{*<li><a href="shop3.html">Shop 3</a></li>*}
+												{*<li><a href="shop4.html">Shop 4</a></li>*}
+												{*<li><a href="shop5.html">Shop 5</a></li>*}
+												{*<li><a href="shop6.html">Shop 6</a></li>*}
+												{*<li><a href="shop7.html">Shop 7</a></li>*}
+												{*<li><a href="product-details1.html">Shop Details 1</a></li>*}
+												{*<li><a href="product-details2.html">Shop Details 2</a></li>*}
+											{*</ul>*}
+										{*</li>*}
+										{*<li><a href="index.html#">Pages</a>*}
+											{*<ul>*}
+												{*<li><a href="login-registration.html">Login Registration</a></li>*}
+												{*<li><a href="cart.html">Cart</a></li>*}
+												{*<li><a href="wishlist.html">Wishlist</a></li>*}
+												{*<li><a href="check-out.html">Check Out</a></li>*}
+												{*<li><a href="404.html">404</a></li>*}
+											{*</ul>*}
+										{*</li>*}
+										{*<li><a href="contact.html">Contact</a></li>*}
+									{*</ul>*}
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Mobile Menu Area End Here -->
+		</div>
+	</div>
+</header>
