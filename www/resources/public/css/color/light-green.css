@@ -2833,6 +2833,12 @@ ul {
 /*=========================================
 3. Slider Area
 ==========================================*/
+
+
+.my-slider {
+	width: 100%;
+}
+
 /*----------------------------------------
 3.1 Slider 1 styles
 ----------------------------------------*/
@@ -5198,6 +5204,10 @@ ul {
 	background: #f1f1f1;
 }
 
+.advantage1-area .advantage-icon {
+	width: 45px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.advantage1-area {
 		padding: 60px 0;
@@ -5227,7 +5237,7 @@ ul {
 }
 
 .advantage1-area .advantage-area-box a {
-	padding: 10px 22px 10px 0;
+	padding: 10px 22px;
 	border-right: 1px solid #b6b6b6;
 	margin-right: 22px;
 }
