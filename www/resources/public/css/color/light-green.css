@@ -3719,10 +3719,7 @@ ul {
 4. Inner Page Bennar Area styles
 ==========================================*/
 .inner-page-banner-area {
-	background: url(/resources/public/img/inner-page-banner.svg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background: url(/resources/public/img/grey_wash_wall.png);
 	text-align: center;
 	position: relative;
 	min-height: 185px;
@@ -3734,18 +3731,17 @@ ul {
 	}
 }
 
-.inner-page-banner-area:after {
-	position: absolute;
-	content: "";
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 100%;
-	width: 100%;
-	top: 0;
-	z-index: 1;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-}
+/*.inner-page-banner-area:after {*/
+	/*position: absolute;*/
+	/*content: "";*/
+	/*height: 100%;*/
+	/*width: 100%;*/
+	/*top: 0;*/
+	/*z-index: 1;*/
+	/*left: 0;*/
+	/*right: 0;*/
+	/*margin: 0 auto;*/
+/*}*/
 
 .inner-page-banner-area .pagination-area {
 	position: absolute;
