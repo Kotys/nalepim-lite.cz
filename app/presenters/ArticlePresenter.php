@@ -5,11 +5,10 @@
 
 namespace App\Presenters;
 
-use Tracy\Debugger;
-
 class ArticlePresenter extends BasePublicPresenter
 {
-	public function actionDefault($id) {
-		Debugger::barDump($id);
+	public function actionDefault()
+	{
+		$this->redirect('Homepage:default');
 	}
 }
