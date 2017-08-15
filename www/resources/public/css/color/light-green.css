@@ -2834,7 +2834,6 @@ ul {
 3. Slider Area
 ==========================================*/
 
-
 .my-slider {
 	width: 100%;
 }
@@ -3732,15 +3731,15 @@ ul {
 }
 
 /*.inner-page-banner-area:after {*/
-	/*position: absolute;*/
-	/*content: "";*/
-	/*height: 100%;*/
-	/*width: 100%;*/
-	/*top: 0;*/
-	/*z-index: 1;*/
-	/*left: 0;*/
-	/*right: 0;*/
-	/*margin: 0 auto;*/
+/*position: absolute;*/
+/*content: "";*/
+/*height: 100%;*/
+/*width: 100%;*/
+/*top: 0;*/
+/*z-index: 1;*/
+/*left: 0;*/
+/*right: 0;*/
+/*margin: 0 auto;*/
 /*}*/
 
 .inner-page-banner-area .pagination-area {
@@ -10688,4 +10687,36 @@ ul {
 
 .featured-products-area2 {
 	margin-top: 60px;
+}
+
+.custom-article {
+
+}
+
+.custom-article .margin-bottom-small {
+	margin-bottom: 5px;
+}
+
+.custom-article .margin-top-large {
+	margin-top: 40px;
+}
+
+.custom-article ul {
+	padding-left: 10px;
+}
+
+.list-with-left-title {
+	display: block;
+	margin-bottom: 24px;
+}
+
+.list-with-left-title .list-title {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+.list-with-left-title ul.list-items {
+	display: inline-block;
+	vertical-align: top;
 }
