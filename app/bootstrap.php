@@ -20,6 +20,7 @@ $configurator->addConfig(__DIR__ . '/config/config.local.neon');
 $container = $configurator->createContainer();
 
 define('DATA_DIR', './data/');
+define('RESOURCES_DIR', './resources/');
 define('DATA_UPLOAD_DIR', DATA_DIR . 'upload/');
 
 return $container;
