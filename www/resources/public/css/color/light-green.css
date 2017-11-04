@@ -5199,90 +5199,17 @@ ul {
 	background: #f1f1f1;
 }
 
-.advantage1-area .advantage-icon {
-	width: 45px;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-	.advantage1-area {
-		padding: 60px 0;
-	}
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-	.advantage1-area {
-		padding: 50px 0;
-	}
-}
-
-@media only screen and (max-width: 479px) {
-	.advantage1-area {
-		padding: 40px 0;
-	}
-}
-
 .advantage1-area .advantage-area-box {
 	background: #ffffff;
-	padding: 37px 0 12px;
+	/*padding: 25px 0 0 0;*/
 	-webkit-transition: all 0.7s ease-out;
 	-moz-transition: all 0.7s ease-out;
 	-ms-transition: all 0.7s ease-out;
 	-o-transition: all 0.7s ease-out;
 	transition: all 0.7s ease-out;
 }
-
-.advantage1-area .advantage-area-box a {
-	padding: 10px 22px;
-	border-right: 1px solid #b6b6b6;
-	margin-right: 22px;
-}
-
-.advantage1-area .advantage-area-box a i:before {
-	font-size: 38px;
-	color: #8bc34a;
-	-webkit-transition: all 0.7s ease-out;
-	-moz-transition: all 0.7s ease-out;
-	-ms-transition: all 0.7s ease-out;
-	-o-transition: all 0.7s ease-out;
-	transition: all 0.7s ease-out;
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-	.advantage1-area .advantage-area-box {
-		height: 150px;
-		padding: 20px 0 12px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-	.advantage1-area .advantage-area-box {
-		text-align: center;
-		height: 212px;
-	}
-
-	.advantage1-area .advantage-area-box .media {
-		overflow: inherit;
-	}
-
-	.advantage1-area .advantage-area-box .media a {
-		float: none !important;
-		margin-right: 0;
-		border-right: none;
-		padding: 0 22px 10px 0;
-		display: block;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.advantage1-area .advantage-area-box {
-		margin-bottom: 10px;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	.advantage1-area .advantage-area-box {
-		padding: 25px 0 0;
-	}
+.advantage1-area .advantage-area-box .media-body {
+	padding: 30px;
 }
 
 .advantage1-area .advantage-area-box .media-body h3 {
@@ -5293,22 +5220,11 @@ ul {
 }
 
 .advantage1-area .advantage-area-box .media-body p {
-	letter-spacing: 4px;
+	letter-spacing: 1px;
 	color: #333333;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 500;
-}
-
-@media only screen and (max-width: 1199px) {
-	.advantage1-area .advantage-area-box .media-body {
-		padding-right: 10px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-	.advantage1-area .advantage-area-box .media-body {
-		padding-right: 0;
-	}
+	margin-bottom: 0;
 }
 
 .advantage1-area .advantage-area-box:hover {
